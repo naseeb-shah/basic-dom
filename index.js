@@ -42,12 +42,11 @@ let content = document.querySelector("#content");
 
 //  }
 
-// function remove(id){
-//     let element= document.querySelector(`#${id}`)
+function remove(id) {
+  let element = document.querySelector(`#${id}`);
 
-//      element.style.display="none"
-
-// }
+  element.style.display = "none";
+}
 //  access the parent element of buttons
 let parent = document.querySelector("#parent");
 let data = parent.children;
