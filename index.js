@@ -1,21 +1,21 @@
 // update data dynamically in html file using dom manupalution
 let content = document.querySelector("#content");
-//  content.innerHTML="<h1>Deen Shah</h1><p>Jack ware</p>"
-//  const englishNames = [
-//     "John",
-//     "Mary",
-//     "Michael",
-//     "Emily",
-//     "James",
-//     "Sarah",
-//     "David",
-//     "Emma",
-//     "Daniel",
-//     "Olivia"
-// ];
+content.innerHTML = "<h1>Deen Shah</h1><p>Jack ware</p>";
+const englishNames = [
+  "John",
+  "Mary",
+  "Michael",
+  "Emily",
+  "James",
+  "Sarah",
+  "David",
+  "Emma",
+  "Daniel",
+  "Olivia",
+];
 
 // const namesCantainer=document.querySelector('#name')
-// // inject names in html page
+// inject names in html page
 // function namesShow(){
 //     englishNames.forEach((e,index)=>{
 // // create a paragraph tag using javascript
